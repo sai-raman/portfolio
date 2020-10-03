@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Sai Raman Kilambi</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    SAI RAMAN KILAMBI
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio_pic.PNG)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- <img src="images/logos/crondose.png" alt=""> -->
+                        </div>
+
+                        <div class="subtitle">A Portfolio Application using HTML, CSS and Javascript.</div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/server.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/node.png" alt="">
+                        </div>
+
+                        <div class="subtitle">A basic Nodejs server template</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/tennis.PNG)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- <img src="images/logos/devcamp.png" alt=""> -->
+                        </div>
+
+                        <div class="subtitle">A tennis game developed using HTML, CSS and Javascript (Using Canvas).</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/cake.PNG)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- <img src="images/logos/eventbrite.png" alt=""> -->
+                        </div>
+
+                        <div class="subtitle">A python application that draws a cake and a text "Happy Birthday" using "Turtle" module in Python.</div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/ds.png)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- <img src="images/logos/crondose.png" alt=""> -->
+                        </div>
+
+                        <div class="subtitle">Implementations of several data structures.</div>
+                    </div>
+                </div>
+                <!-- A simple Node application demonstrating the use of JSON Web Token (JWT). -->
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/jwt.png)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- <img src="images/logos/crondose.png" alt=""> -->
+                        </div>
+
+                        <div class="subtitle">A simple Node application demonstrating the use of JSON Web Token (JWT).</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/kafka.png)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- <img src="images/logos/crondose.png" alt=""> -->
+                        </div>
+
+                        <div class="subtitle">A dockerized application demonstrating multibroker kafka.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    portfolioItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.childNodes[1].classList.add('img-darken');
+        })
+
+        item.addEventListener('mouseout', () => {
+            item.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+
+</html>
