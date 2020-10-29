@@ -92,7 +92,6 @@ const projects = [
         url:'https://github.com/sai-raman/multi-broker-kafka',
         description: `A dockerized application demonstrating multibroker kafka.`
     }
-//     https://sai-raman.github.io/sierpinski-recursion/.
         {
         title: 'Sierpinski Triangle -  Visualizing Recursion',
         type: '',
