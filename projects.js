@@ -91,7 +91,7 @@ const projects = [
         image:'images/kafka.png',
         url:'https://github.com/sai-raman/multi-broker-kafka',
         description: `A dockerized application demonstrating multibroker kafka.`
-    }
+    },
         {
         title: 'Sierpinski Triangle -  Visualizing Recursion',
         type: '',
