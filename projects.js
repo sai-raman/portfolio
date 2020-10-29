@@ -61,13 +61,13 @@ const projects = [
         description: `A chrome extension to make a note of expenses especially on the
         ecommerce websites.`
     },
-    {
-        title: 'Happy Birthday',
-        type: 'Python, Turtle',
-        image:'images/cake.png',
-        url:'https://github.com/sai-raman/birthday',
-        description: `A python application that draws a cake and a text "Happy Birthday"
-        using "Turtle" module in Python.`
+    
+        {
+        title: 'Sierpinski Triangle -  Visualizing Recursion',
+        type: '',
+        image:'images/recursion.png',
+        url:'https://sai-raman.github.io/sierpinski-recursion/.',
+        description: `A Javascript p5.js project visualizing sierpinski-triangle with Recursion.`
     },
     {
         title: 'Speak It',
@@ -93,11 +93,12 @@ const projects = [
         description: `A dockerized application demonstrating multibroker kafka.`
     },
         {
-        title: 'Sierpinski Triangle -  Visualizing Recursion',
-        type: '',
-        image:'images/recursion.png',
-        url:'https://sai-raman.github.io/sierpinski-recursion/.',
-        description: `A Javascript p5.js project visualizing sierpinski-triangle with Recursion.`
+        title: 'Happy Birthday',
+        type: 'Python, Turtle',
+        image:'images/cake.png',
+        url:'https://github.com/sai-raman/birthday',
+        description: `A python application that draws a cake and a text "Happy Birthday"
+        using "Turtle" module in Python.`
     }
 ]
 
