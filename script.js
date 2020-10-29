@@ -2,21 +2,28 @@ let themeDots = document.getElementsByClassName('theme-dot')
 
 let theme = localStorage.getItem('theme')
 
-if(theme == null){
+const about = `<b>Experienced Software Engineer with a demonstrated history of working in building and developing
+applications for commercial real estate industry. Algorithmic thinker skilled in Angular ,Node,
+Docker and kubernetes.A big fan of microservices architecture and Event sourcing. Machine
+Learning and deep learning enthusiast. Strong engineering professional with a Bachelor's Degree
+focused in Computer science and engineering from Jawaharlal Nehru Technological University.</b>`;
+document.getElementById('about_p').innerHTML = about;
+
+if (theme == null) {
 	setTheme('blue')
-}else{
+} else {
 	setTheme(theme)
 }
 
-for(var i=0; themeDots.length > i;i++){
- themeDots[i].addEventListener('click', function(){
- 	let mode =this.dataset.mode
- 	console.log('option clicked',mode)
- 	setTheme(mode)
- })
+for (var i = 0; themeDots.length > i; i++) {
+	themeDots[i].addEventListener('click', function () {
+		let mode = this.dataset.mode
+		console.log('option clicked', mode)
+		setTheme(mode)
+	})
 }
 
-function setTheme(mode){
+function setTheme(mode) {
 	if (mode == 'light') {
 		document.getElementById('theme-style').href = 'default.css'
 	}
