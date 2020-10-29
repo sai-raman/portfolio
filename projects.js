@@ -32,6 +32,13 @@ const projects = [
         Depth First Search technique, Recursive Backtracking`
     },
     {
+        title: 'Liner Regression using tensorflowjs',
+        image:'images/lr.png',
+        url: 'https://sai-raman.github.io/linear-regression-tensorflowjs/',
+        type: '',
+        description: `A Javascript P5.js project which visualizes linear regression using tensorflowjs`
+    },
+    {
         title: 'Tennis Game ',
         image:'images/tennis.png',
         url:'https://sai-raman.github.io/Games/.',
@@ -108,7 +115,6 @@ function displayProjects() {
 
     });
 
-    console.log(document.getElementById('post-wrapper'));
     document.getElementById('post-wrapper').innerHTML = value;
 }
 
