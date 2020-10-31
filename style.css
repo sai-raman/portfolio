@@ -304,11 +304,16 @@
  }
 
  #skills {
- 	font-size: 25px;
- 	display: flex;
- 	justify-content: space-evenly;
- 	background-color: var(--previewshadow);
- }
+	 display: table;
+	 width: 100%; /*Optional*/
+	 table-layout: fixed; /*Optional*/
+	 border-spacing: 10px; /*Optional*/
+}
+
+#tech{
+	display: table-cell;
+	background-color: var(--previewshadow);
+}
 
 
 
@@ -505,6 +510,10 @@
 			'left-column'
 			'right-column'
 		;
+	}
+	
+	input[type=text] {
+		width: 100%;
 	}
 
 	.terminal-window{
