@@ -9,10 +9,18 @@ const projects = [
     {
         title: 'Human Face Mask Detection',
         image:'images/mask.png',
-        url: 'https://github.com/sai-raman/face-mask-detection/blob/main/mask_detection.ipynb',
+        url: 'https://github.com/sai-raman/face-mask-detection',
         type: 'Deep Learning Model',
         description: `A deep learning model based on Convolutional Neural Networks which
         determines whether a person is wearing a mask or not.`
+    },
+        {
+        title: 'COVID -19 Detection',
+        image:'images/covid.jpg',
+        url: 'https://github.com/sai-raman/covid19-detection',
+        type: 'Convolutional Neural Network',
+        description: `A deep learning model based on Convolutional Neural Networks which
+        determines whether a a given X-RAY is COVID-19 positive or not.`
     },
     {
         title: 'Student Garde Prediction',
