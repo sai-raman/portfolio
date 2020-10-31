@@ -1,0 +1,13 @@
+:root{
+    --maincolor:#913139;
+    --secondarycolor:rgb(53, 50, 50); 
+
+    --bordercolor:#161914; 
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+    --themedotborder:#fff; 
+    --previewBg:rgb(53, 50, 50); 
+    --previewshadow:rgb(53, 50, 50);  
+
+}

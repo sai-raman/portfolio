@@ -219,19 +219,19 @@
  }
 
  #light-mode {
- 	background-color: #fff;
+ 	background-color: #097279;
  }
 
  #blue-mode {
- 	background-color: #192734;
+ 	background-color: #e07218;
  }
 
  #green-mode {
- 	background-color: #78866b;
+ 	background-color: #913139;
  }
 
  #purple-mode {
- 	background-color: #7e5c74;
+ 	background-color: #46344e;
  }
 
  #setting-note {
@@ -380,7 +380,7 @@
 	border-radius: 4px;
 	font-size: 16px;
 	background-color: white;
-	color: red;
+	color: black;
 	font-weight: bold;
 	background-image: url('images/search.png');
 	background-size: contain;
@@ -391,13 +391,13 @@
 	transition: width 0.4s ease-in-out;
   }
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: red;
+	color: black;
 	font-weight: bold ;
 	opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-	color: red;
+	color: black;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
