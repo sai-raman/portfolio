@@ -65,7 +65,7 @@ const projects = [
         title: 'Budget Manager',
         url:'https://github.com/sai-raman?tab=repositories',
         image:'images/chrome.jpg',
-        type: 'Google Crome Extension',
+        type: 'Google Chrome Extension',
         description: `A chrome extension to make a note of expenses especially on the
         ecommerce websites.`
     },
@@ -79,7 +79,7 @@ const projects = [
     },
     {
         title: 'Speak It',
-        type: 'Google Crome Extension',
+        type: 'Google Chrome Extension',
         image:'images/chrome.jpg',
         url:'https://github.com/sai-raman?tab=repositories',
         description: `A chrome extension which says aloud the selected text on the
@@ -110,11 +110,25 @@ const projects = [
     }
 ]
 
+let search_input = document.getElementById('search');
+
+function debounce( callback, delay ) {
+    let timeout;
+    return function() {
+        clearTimeout( timeout );
+        timeout = setTimeout( callback, delay );
+    }
+}
+
+search_input.addEventListener(
+    "keyup",
+    debounce( filter, 1000 )
+);
 
 
-function displayProjects() {
+function displayProjects(list) {
     let value = ``;
-    projects.forEach((project) => {
+    list.forEach((project) => {
 
         value += `
         <div>
@@ -134,4 +148,22 @@ function displayProjects() {
     document.getElementById('post-wrapper').innerHTML = value;
 }
 
-displayProjects();
+function filter(){
+    let list = [];
+    let searchText = document.getElementById('search').value;
+    console.log(searchText);
+    list = projects.filter(project=>{
+        let name = project.title + " "+project.type+" "+project.description;
+        return name.trim().toLowerCase().includes(searchText.trim().toLowerCase());
+    })
+    console.log(list);
+    console.log(projects);
+    if(list.length!=0)
+    displayProjects(list);
+    else
+    displayProjects(projects);
+}
+
+
+displayProjects(projects);
+
