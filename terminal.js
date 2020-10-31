@@ -21,7 +21,7 @@ $(function() {
     { 
       action: 'type',
       strings: ["that was easy! Check out my profile....", ''],
-      postDelay: 2000
+      postDelay: 4000
     }
     
   ];
