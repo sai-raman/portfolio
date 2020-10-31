@@ -21,6 +21,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 
 </head>
 
@@ -63,8 +64,42 @@
                 </div>
 
                 <div class="right-column">
-
-                    <div id="preview-shadow">
+                    <div class="terminal-window">
+                        <header>
+                          <div class="button green"></div>
+                          <div class="button yellow"></div>
+                          <div class="button red"></div>
+                        </header>
+                        <section class="terminal">
+                          <div class="history"></div>
+                          $&nbsp;<span class="prompt"></span>
+                          <span class="typed-cursor"></span>
+                          
+                        </section>
+                      </div>
+                      <!-- data -->
+                        <div class="terminal-data mimik-run-output">
+                       <br>Running Tests..<br>
+                       ----------------------------------------------<br>
+                       Features: Mandatory  <span class="gray"># ./sai-raman-kilambi/mandatory.feature</span><br><br> 
+                      
+                       &nbsp;&nbsp;Scenario: Qualities of a Software Engineer<br>
+                       &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Algorithmic Thinking</span><br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Cognitive Ability</span><br>
+                       &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Emergent Leadership</span><br>
+                       &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Humility</span><br>
+                       &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Ownership</span><br>
+                       <br>
+                          <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br>
+                      &nbsp;&nbsp;Features&nbsp;&nbsp;&nbsp;Scenarios&nbsp;&nbsp;&nbsp;Steps&nbsp;&nbsp;&nbsp;Passed&nbsp;&nbsp;&nbsp;Failed<br>
+                          <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br>
+                      &nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓ 4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0      <br>
+                        <br>
+                      &nbsp;&nbsp;Completed mandatory tests in 0.01s<br>
+                        <br>
+                      </div>
+                      
+                    <!-- <div id="preview-shadow">
                         <div id="preview">
                             <div id="corner-t1" class="corner"></div>
                             <div id="corner-t2" class="corner"></div>
@@ -72,7 +107,7 @@
                             <div id="corner-t3" class="corner"></div>
                             <div id="corner-t4" class="corner"></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
 
@@ -145,6 +180,7 @@
     </section>
 
     <script type="text/javascript" src="script.js"></script>
+    <script src="terminal.js"></script>
     <script src="projects.js"></script>
 
 </body>
