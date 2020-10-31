@@ -10,7 +10,7 @@ focused in Computer science and engineering from Jawaharlal Nehru Technological 
 document.getElementById('about_p').innerHTML = about;
 
 if (theme == null) {
-	setTheme('blue')
+	setTheme('orange')
 } else {
 	setTheme(theme)
 }
