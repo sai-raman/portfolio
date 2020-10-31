@@ -151,13 +151,10 @@ function displayProjects(list) {
 function filter(){
     let list = [];
     let searchText = document.getElementById('search').value;
-    console.log(searchText);
     list = projects.filter(project=>{
         let name = project.title + " "+project.type+" "+project.description;
         return name.trim().toLowerCase().includes(searchText.trim().toLowerCase());
     })
-    console.log(list);
-    console.log(projects);
     if(list.length!=0)
     displayProjects(list);
     else
