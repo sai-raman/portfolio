@@ -15,7 +15,7 @@ const projects = [
         determines whether a person is wearing a mask or not.`
     },
         {
-        title: 'COVID -19 Detection',
+        title: 'COVID -19 X-RAY Detection',
         image:'images/covid.jpg',
         url: 'https://github.com/sai-raman/covid19-detection',
         type: 'Convolutional Neural Network',
