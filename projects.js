@@ -16,7 +16,7 @@ const projects = [
     },
         {
         title: 'COVID -19 X-RAY Detection',
-        image:'images/covid.jpg',
+        image:'images/covid.png',
         url: 'https://github.com/sai-raman/covid19-detection',
         type: 'Convolutional Neural Network',
         description: `A deep learning model based on Convolutional Neural Networks which
