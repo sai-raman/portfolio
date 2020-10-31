@@ -34,7 +34,6 @@ $(function() {
       if(script.clear === true) {
         $('.history').html(''); 
       }
-      console.log(prompt.typed)
       switch(script.action) {
           case 'type':
             // cleanup for next execution
