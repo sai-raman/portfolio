@@ -135,7 +135,7 @@ function displayProjects(list) {
         <div class="post">
             <a href=${project.url}><img class="thumbnail" src=${project.image}></a>
             <div class="post-preview">
-                <h6 class="post-title">${project.title}-${project.type}</h6>
+                <h4 class="post-title">${project.title}-${project.type}</h4>
                 <p class="post-intro" id="para"><b>${project.description}</b>
                 </p>
             </div>
