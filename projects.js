@@ -22,6 +22,13 @@ const projects = [
         description: `A deep learning model based on Convolutional Neural Networks which
         determines whether a a given X-RAY is COVID-19 positive or not.`
     },
+      {
+        title: 'Interactive Chat Bot - Jarvis',
+        image:'images/chat.jpg',
+        url: 'https://github.com/sai-raman/seq2seq-chatbot',
+        type: 'Recurrent Neural Networks',
+        description: `A seq2seq deep learning model based on Recurrent Neural Networks that is trained on the Cornell movie conversations Dataset.`
+    },
     {
         title: 'Student Garde Prediction',
         image:'images/grade.jpeg',
