@@ -29,6 +29,13 @@ const projects = [
         type: 'Recurrent Neural Networks',
         description: `A seq2seq deep learning model based on Recurrent Neural Networks that is trained on the Cornell movie conversations Dataset.`
     },
+     {
+        title: 'Black Hole Simulation',
+        image:'images/blackhole.png',
+        url: 'https://sai-raman.github.io/Black-Hole-2D-Simulation/',
+        type: '2 Dimensional',
+        description: `A 2 Dimensional simulation of a black hole representing the Accretion disk, Event Horizon and the bending of space time near the black hole.`
+    },
     {
         title: 'Student Garde Prediction',
         image:'images/grade.jpeg',
