@@ -2,6 +2,8 @@ const projects = [
     {
         title: 'WIKIME',
         url: 'https://github.com/sai-raman?tab=repositories',
+        codeUrl:'https://github.com/sai-raman?tab=repositories',
+        private:true,
         image:'images/chrome.jpg',
         type: 'Google Chrome Extension',
         description: 'A chrome extension which searches for the highlighted text in WIKIPEDIA.'
@@ -9,6 +11,7 @@ const projects = [
     {
         title: 'Human Face Mask Detection',
         image:'images/mask.png',
+        codeUrl:'https://github.com/sai-raman/face-mask-detection',
         url: 'https://github.com/sai-raman/face-mask-detection',
         type: 'Deep Learning Model',
         description: `A deep learning model based on Convolutional Neural Networks which
@@ -17,6 +20,7 @@ const projects = [
         {
         title: 'COVID -19 X-RAY Detection',
         image:'images/covid.png',
+        codeUrl:'https://github.com/sai-raman/covid19-detection',
         url: 'https://github.com/sai-raman/covid19-detection',
         type: 'Convolutional Neural Network',
         description: `A deep learning model based on Convolutional Neural Networks which
@@ -25,6 +29,7 @@ const projects = [
       {
         title: 'Interactive Chat Bot - Jarvis',
         image:'images/chat.jpg',
+        codeUrl:'https://github.com/sai-raman/seq2seq-chatbot',
         url: 'https://github.com/sai-raman/seq2seq-chatbot',
         type: 'Recurrent Neural Networks',
         description: `A seq2seq deep learning model based on Recurrent Neural Networks that is trained on the Cornell movie conversations Dataset.`
@@ -32,6 +37,7 @@ const projects = [
      {
         title: 'Black Hole Simulation',
         image:'images/blackhole.png',
+        codeUrl:'https://github.com/sai-raman/Black-Hole-2D-Simulation',
         url: 'https://sai-raman.github.io/Black-Hole-2D-Simulation/',
         type: '2 Dimensional',
         description: `A 2 Dimensional simulation of a black hole representing the Accretion disk, Event Horizon and the bending of space time near the black hole.`
@@ -39,6 +45,7 @@ const projects = [
     {
         title: 'Student Garde Prediction',
         image:'images/grade.jpeg',
+        codeUrl:'https://github.com/sai-raman/student-grade-prediction',
         url: 'https://github.com/sai-raman/student-grade-prediction/blob/main/student_grade_prediction.ipynb',
         type: 'Machine Learning Model',
         description: `A machine learning project that uses both Naive Bayes and Decision
@@ -48,6 +55,7 @@ const projects = [
     {
         title: 'Maze Generation',
         image:'images/maze.png',
+        codeUrl:'https://github.com/sai-raman/Maze-Generator-DFS',
         url: 'https://sai-raman.github.io/Maze-Generator-DFS/.',
         type: 'Depth First Search, Backtracking',
         description: `A Javascript P5.js project which visualizes maze generation using
@@ -56,6 +64,7 @@ const projects = [
     {
         title: 'Liner Regression using tensorflowjs',
         image:'images/lr.png',
+        codeUrl:'https://github.com/sai-raman/linear-regression-tensorflowjs',
         url: 'https://sai-raman.github.io/linear-regression-tensorflowjs/',
         type: '',
         description: `A Javascript P5.js project which visualizes linear regression using tensorflowjs`
@@ -63,6 +72,7 @@ const projects = [
     {
         title: 'Tennis Game ',
         image:'images/tennis.png',
+        codeUrl:'https://github.com/sai-raman/Games',
         url:'https://sai-raman.github.io/Games/.',
         type: 'Javascript',
         description: `A tennis game developed using HTML, CSS and Javascript (Using
@@ -71,6 +81,7 @@ const projects = [
     {
         title: 'Snake Game',
         type: 'Javascript',
+        codeUrl:'https://github.com/sai-raman/snake-game',
         url:'https://sai-raman.github.io/snake-game/.',
         image:'images/snake.png',
         description: `The classic snake game build using Javascript and P5.js.`
@@ -78,6 +89,7 @@ const projects = [
     {
         title: 'Budget Manager',
         url:'https://github.com/sai-raman?tab=repositories',
+        codeUrl:'https://github.com/sai-raman?tab=repositories',
         image:'images/chrome.jpg',
         type: 'Google Chrome Extension',
         description: `A chrome extension to make a note of expenses especially on the
@@ -87,6 +99,7 @@ const projects = [
         {
         title: 'Sierpinski Triangle -  Visualizing Recursion',
         type: '',
+        codeUrl:'https://github.com/sai-raman/sierpinski-recursion',
         image:'images/recursion.png',
         url:'https://sai-raman.github.io/sierpinski-recursion/.',
         description: `A Javascript p5.js project visualizing sierpinski-triangle with Recursion.`
@@ -94,6 +107,7 @@ const projects = [
     {
         title: 'Speak It',
         type: 'Google Chrome Extension',
+        codeUrl:'https://github.com/sai-raman?tab=repositories',
         image:'images/chrome.jpg',
         url:'https://github.com/sai-raman?tab=repositories',
         description: `A chrome extension which says aloud the selected text on the
@@ -102,6 +116,7 @@ const projects = [
     {
         title: 'JSON Web Tokens',
         type: 'Demo',
+        codeUrl:'https://github.com/sai-raman/JWT',
         image:'images/jwt.png',
         url:'https://github.com/sai-raman/JWT',
         description: `A simple Node application demonstrating the use of JSON Web Token
@@ -110,6 +125,7 @@ const projects = [
     {
         title: 'Multi Broker Kafka',
         type: 'Demo',
+        codeUrl:'https://github.com/sai-raman/multi-broker-kafka',
         image:'images/kafka.png',
         url:'https://github.com/sai-raman/multi-broker-kafka',
         description: `A dockerized application demonstrating multibroker kafka.`
@@ -117,6 +133,7 @@ const projects = [
         {
         title: 'Happy Birthday',
         type: 'Python, Turtle',
+        codeUrl:'https://github.com/sai-raman/birthday',
         image:'images/cake.png',
         url:'https://github.com/sai-raman/birthday',
         description: `A python application that draws a cake and a text "Happy Birthday"
@@ -152,6 +169,7 @@ function displayProjects(list) {
                 <h4 class="post-title">${project.title}-${project.type}</h4>
                 <p class="post-intro" id="para"><b>${project.description}</b>
                 </p>
+                <button class="btn btn-danger" onclick="window.open('${project.codeUrl}', '_blank');">View Code</button>
             </div>
         </div>
         </div>
