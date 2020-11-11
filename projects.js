@@ -43,7 +43,7 @@ const projects = [
         description: `A 2 Dimensional simulation of a black hole representing the Accretion disk, Event Horizon and the bending of space time near the black hole.`
     },
     {
-        title: 'Student Garde Prediction',
+        title: 'Student Grade Prediction',
         image:'images/grade.jpeg',
         codeUrl:'https://github.com/sai-raman/student-grade-prediction',
         url: 'https://github.com/sai-raman/student-grade-prediction/blob/main/student_grade_prediction.ipynb',
