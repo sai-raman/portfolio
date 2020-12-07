@@ -1,7 +1,7 @@
 const projects = [
     {
         title: 'WIKIME',
-        url: 'https://github.com/sai-raman?tab=repositories',
+        url: 'https://chrome.google.com/webstore/detail/wikime/lgaejbhheehnafmcpknjjmebcabebkle?hl=en',
         codeUrl:'https://github.com/sai-raman?tab=repositories',
         private:true,
         image:'images/chrome.jpg',
@@ -170,6 +170,7 @@ function displayProjects(list) {
                 <p class="post-intro" id="para"><b>${project.description}</b>
                 </p>
                 <button class="btn btn-danger" onclick="window.open('${project.codeUrl}', '_blank');">View Code</button>
+                <button class="btn btn-warning" onclick="window.open('${project.url}', '_blank');">Demo</button>
             </div>
         </div>
         </div>
