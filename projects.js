@@ -17,6 +17,15 @@ const projects = [
         description: `A deep learning model based on Convolutional Neural Networks which
         determines whether a person is wearing a mask or not.`
     },
+    {
+        title: 'COVID-19 Tracker',
+        url: 'https://sai-raman.github.io/covidtracker/',
+        codeUrl:'https://github.com/sai-raman/covidtracker',
+        private:false,
+        image:'images/tracker.png',
+        type: 'React.js',
+        description: 'A React project that tracks the COVID-19 cases across the world. It displays world wide trend using line graph and country wide cases in the form of bar graphs.'
+    },
         {
         title: 'COVID -19 X-RAY Detection',
         image:'images/covid.png',
