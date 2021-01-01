@@ -412,6 +412,14 @@
   }
 
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: black;
+}
+
+
 
 #theme{
 	padding:4%;
