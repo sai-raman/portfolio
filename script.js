@@ -3,7 +3,7 @@ let themeDots = document.getElementsByClassName('theme-dot')
 let theme = localStorage.getItem('theme')
 
 const about = `<b>Experienced Software Engineer with a demonstrated history of working in building and developing
-applications for commercial real estate industry. Algorithmic thinker skilled in Angular ,Node,
+software applications. Algorithmic thinker skilled in Angular ,Node,
 Docker and kubernetes.A big fan of microservices architecture and Event sourcing. Machine
 Learning and deep learning enthusiast. Strong engineering professional with a Bachelor's Degree
 focused in Computer science and engineering from Jawaharlal Nehru Technological University.</b>`;
