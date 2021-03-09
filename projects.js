@@ -17,6 +17,15 @@ const projects = [
         description: `A deep learning model based on Convolutional Neural Networks which
         determines whether a person is wearing a mask or not.`
     },
+        {
+        title: 'Graduate Admit Precdiction',
+        image:'images/admit.png',
+        codeUrl:'https://github.com/sai-raman/graduate-admission-prediction',
+        url:'https://github.com/sai-raman/graduate-admission-prediction',  
+        type: 'Machine Learning Model',
+        description: `A Machine Learning model that analyzes different algorithms and predicts
+        if a student can get an admit into a university.`
+    },
     {
         title: 'COVID-19 Tracker',
         url: 'https://sai-raman.github.io/covidtracker/',
