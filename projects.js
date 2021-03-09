@@ -18,7 +18,7 @@ const projects = [
         determines whether a person is wearing a mask or not.`
     },
         {
-        title: 'Graduate Admit Precdiction',
+        title: 'Graduate Admit Prediction',
         image:'images/admit.png',
         codeUrl:'https://github.com/sai-raman/graduate-admission-prediction',
         url:'https://github.com/sai-raman/graduate-admission-prediction',  
