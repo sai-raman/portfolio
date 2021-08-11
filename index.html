@@ -11,7 +11,8 @@
 
     <link id="theme-style" rel="stylesheet" type="text/css" href="">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,6 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -42,16 +44,16 @@
                         <div id="dot-3" class="browser-dot"></div>
                     </div>
                     <ul id="navigation">
-                        <li><a href="#about"><b>About</b></a></li>
-                        <li><a href="#projects"><b> Projects </b></a></li>
-                        <li><a href="https://efficientprogrammer.blogspot.com/" target="_blank"><b> Blog </b></a></li>
-                        <li><a href="#social"><b>Contact</b></a></li>
+                        <li><a href="#about" style="text-decoration: none;"><b>About</b></a></li>
+                        <li><a href="#projects" style="text-decoration: none;"><b> Projects </b></a></li>
+                        <li><a href="https://efficientprogrammer.blogspot.com/" style="text-decoration: none;" target="_blank"><b> Blog </b></a></li>
+                        <li><a href="#social" style="text-decoration: none;"><b>Contact</b></a></li>
 
                     </ul>
                 </div>
 
                 <div class="left-column">
-                    <img id="profile-pic" src="images/raman.jpg">
+                    <img id="profile-pic" src="images/pp.jpg">
                     <div id="theme">
                         <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
@@ -122,28 +124,28 @@
                     <p id="about_p"></p>
                     <hr>
                     <h4 style="padding: 2%;">Technical Skills</h4>
-                    <div id="skills">
-                        <ul id="tech">
-                            <li>C</li>
-                            <li>C++</li>
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>Javascript</li>
-                        </ul>
-                        <ul id="tech">
-                            <li>Angular</li>
-                            <li>NodeJS</li>
-                            <li>JQuery</li>
-                            <li>React</li>
-                            <li>Tensorflow</li>
-                        </ul>
-                        <ul id="tech">
-                            <li>Docker</li>
-                            <li>Kubernetes</li>
-                            <li>Kafka</li>
-                            <li>Redis</li>
-                        </ul>
-
+                    <div>
+                        <div class="p-3">
+                            <span class="badge rounded-pill bg-primary">C</span>
+                            <span class="badge rounded-pill bg-primary">C++</span>
+                            <span class="badge rounded-pill bg-primary">Java</span>
+                            <span class="badge rounded-pill bg-primary">Python</span>
+                            <span class="badge rounded-pill bg-primary">Javascript</span>
+                        </div>
+                        <div class="p-3">
+                            <span class="badge rounded-pill bg-primary">Angular</span>
+                            <span class="badge rounded-pill bg-primary">NodeJS</span>
+                            <span class="badge rounded-pill bg-primary">JQuery</span>
+                            <span class="badge rounded-pill bg-primary">React</span>
+                            <span class="badge rounded-pill bg-primary">Tensorflow</span>
+                        </div>
+                        <div class="p-3">
+                            <span class="badge rounded-pill bg-primary">Docker</span>
+                            <span class="badge rounded-pill bg-primary">Kubernetes</span>
+                            <span class="badge rounded-pill bg-primary">Kafka</span>
+                            <span class="badge rounded-pill bg-primary">Redis</span>
+                            <br>
+                        </div>
                     </div>
 
                 </div>
@@ -162,7 +164,7 @@
                         <li>
                     </ul>
                     <hr>
-                
+
                 </div>
 
             </div>
@@ -174,12 +176,13 @@
             <div class="container">
                 <h1 class="heading">Projects</h1>
                 <div class="searchInputWrapper">
-                <input type="text" id="search" class="searchInput" placeholder="Search projects" onkeydown="filter()">
+                    <input type="text" id="search" class="searchInput" placeholder="Search projects"
+                        onkeydown="filter()">
 
-                  <i class="searchInputIcon fa fa-search"></i>
-                  </input>
+                    <i class="searchInputIcon fa fa-search"></i>
+                    </input>
                 </div>
-              </div>
+            </div>
 
             <div class="post-wrapper" id="post-wrapper">
             </div>
